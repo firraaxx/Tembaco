@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="formupdate.css">
+	<title>Pembayaran</title>
+</head>
+<center> <font size="150" face="Bernard MT Condensed"color="#6ECC59"> TEMBACO.</font></center>
+<hr>
+
+<form>
+	<table border="0" cellpadding="5" align="center" width="600px"> 
+		<tr>
+			<td><label for="nama">Nama Lengkap: </label></td>
+            <td><input size="40" class="input" type="text" placeholder="Isikan nama lengkap" >
+       		</td>
+		</tr>
+		<tr>
+			<td><label for="email">Alamat Email: </label></td>
+			<td><input size="40" type="email" id="email"></td>
+		</tr>
+		<tr>
+			<td>Provinsi</td> 
+			<td>
+			<select style="width: 50%;">
+			<option>Pilih Provinsi</option>
+			<option>Jawa Timur</option>
+			<option>Jawa Barat</option>
+			<option>Jawa Tengah</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Kota/Kabupaten</td>
+			<td>
+				<select style="width: 50%;">
+				<option>Pilih Kota/Kabupaten</option>
+				<option>Sumenep</option>
+				<option>Pamekasan</option>
+				<option>Sampang</option>
+				<option>Bangkalan</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Kecamatan</td>
+			<td>
+				<select style="width: 50%;">
+				<option>Pilih Kecamatan</option>
+				<option>Guluk-Guluk</option>
+				<option>Ganding</option>
+				<option>Peragaan</option>
+				<option>Sokobanah</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><label for="pos">Kode POS: </label></td>
+			<td><input size="25" type="text" id="pos" maxlength="5"></td>
+		</tr>
+				<tr>
+			<td><label for="telp">Nomor Telepon </label></td>
+			<td><input type="text" size="25" maxlength="13"/></td>
+		</tr>
+		<tr>
+			<td><label for="alamat" >Alamat Lengkap: </label></td> <!-- Alamat -->
+			<td><input type="text" id="alamat"  placeholder="Nama Jalan, Nomor Jalan, Nomor Rumah" size="40px"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+			
+			<h3>Keterangan Tambahan</h3>
+			<br>
+			<textarea placeholder="Catatan order untuk penjual" cols="31" rows="4"></textarea>
+			</td> 
+		</tr>
+		<tr>
+			<td>
+				<button class="button_reset" type="reset" >Batal</button>
+			</td>
+			<td>
+				<center><button class="button_submit" type="submit" >Pembayaran</button></center>
+			</td>
+
+		</tr>
+	</table>
+	
+</form>
+
+
+</body>
+</html>

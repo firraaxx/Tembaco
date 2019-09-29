@@ -1,0 +1,47 @@
+
+body{
+  font-family: poppin;
+}
+.button_submit {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+  box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.button_submit:hover {
+  background-color: white; /* Green */
+  color: green;
+  width: 150px;
+}
+.button_reset {
+  background-color: #D05750;
+  border: none;
+  color: white;
+  padding: 5px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+  box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.button_reset:hover {
+  background-color: white; /* Green */
+  color: green;
+  width: 150px;
+}
+.input{
+  
+}
