@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Daftar Sekarang</title>
+</head>
+<body class="login-body">
+
+<div class="kembali">
+    <a href="Landingpage.html">Kembali</a>
+
+</div>
+    <div class="label">
+        <center>
+            <a href="login.html" style="color: white;">Masuk</a>
+            <a href="daftar.html" style="background-color: white;padding: 5px;">Daftar</a>
+        </center>
+    </div>
+
+    <div class="kotak">
+        <div class="login">
+
+            <table class="table2">
+            <form action="Landingpage.html">
+                <tr>
+                    <td> Username &nbsp</td>
+                    <td> <input class="input" type="text"><br><br></td>   
+                </tr>
+                <tr> 
+                    <td> Email &nbsp </td>
+                    <td><input class="input" type="email"><br><br></td>
+                </tr>
+                <tr>
+                    <td> Username &nbsp</td>
+                    <td><input class="input" type="text"><br><br></td>
+                </tr>
+                <tr>
+                    <td>Kata Sandi &nbsp</td> 
+                    <td><input class="input" id="password" type="password" name="password"> <br><br></td>
+                </tr>
+                <tr>
+                    <td>Konfirmasi Kata Sandi </td>
+                    <td><input class="input" id="konfir_password" name="konfir_password" type="password" name="konfir_password" onkeyup='check();' /><span id='message'></span><br><br></td> <br><br>
+                </tr>
+            </table>
+            
+            <center><input type="checkbox" name="ingat"><label>&nbsp Saya Setuju dengan Syarat dan Ketentuan yang berlaku</label><br><br></center> 
+            <center>
+                <input class="masuk" type="submit" value="Daftar">
+            </center>
+        </form>
+        </div>
+    
+    </div>
+
+
+</body>
+</html>
+<script>
+var check = function() {
+    if (document.getElementById('password').value ==
+      document.getElementById('konfir_password').value) {
+      document.getElementById('message').style.color = 'green';
+      document.getElementById('message').innerHTML = 'Password Benar';
+    } else {
+      document.getElementById('message').style.color = 'red';
+      document.getElementById('message').innerHTML = 'Konfirmasi Passwrod Salah';
+    }
+  }
+</script>

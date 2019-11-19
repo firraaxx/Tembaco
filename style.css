@@ -1,7 +1,7 @@
-
 body, html{
   width: 100%;
   height: 100%;
+  
 
 }
 *{
@@ -11,61 +11,8 @@ body, html{
   font-family: Verdana;
   list-style:none;
 }
-/* navbar */
-.navbar ul {
-  
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(221, 214, 214);
-}
 
-.navbar  li {
-  float: left;
-}
 
-.navbar li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: 'Poppins' ;
-  font-size: 13px;
-}
-.navbar li a img{
-  width: 22px;
-  height: 19px;
-}
-
-.navbar li a img:hover{
-  width: 22px;
-  height: 19px;
-  background: rgba(37, 226, 62, 0.37);
-}
-
-.navbar li a:hover {
-  /* background-color: #111; */
-  color: green;
-}
-
-.navbar li c {
-  display: block;
-  color: black;
-  text-align: center;
-  padding-left: 350px;
-  padding-top: 15px;
-  margin: 0px;
-  text-decoration: none;
-  font-family: 'Poppins' ;
-  font-size: 13px;
-  float: right;
-}
-
-.navbar {
-  margin-top: 0px;
-}
 
 
 /* end navbar */
@@ -89,7 +36,6 @@ body, html{
   color: white;
   font-family: 'Poppin';
 }
-
 .hero-text .cari{
   margin: 5px;
   border: none;
@@ -113,13 +59,15 @@ body, html{
 
 .testimonials{
   padding: 40px 0;
-  background: linear-gradient(180deg, rgba(147, 203, 70, 0.97) 25.52%, rgba(93, 210, 98, 0.97) 100%);
+  background: linear-gradient(180deg, rgb(114, 190, 92) 25.52%, rgba(145, 202, 70) 100%);
   color: #434343;
   text-align: center;
   font-family: 'Poppins';
 }
 .testimonial .inner h1{
-  padding-top: -100px;
+  padding-top: 250px;
+  
+
 }
 .inner{
   
@@ -166,6 +114,11 @@ body, html{
   font-family: 'Poppins';
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
+
+.testimonials h1{
+  margin-top: 100px;
+}
+
 .testimonial img{
   width: 100px;
   height: 100px;
@@ -234,6 +187,9 @@ body, html{
     /*  */
     position: relative;
     background: linear-gradient(to right,#489ac9,#1676ad);
+  }
+  input::placeholder {
+    font-size: 13px;
   }
   /* inpur search */
 
@@ -362,7 +318,7 @@ display: inline-block;
   .about{
     overflow: hidden;
     text-align: center;
-    background: linear-gradient(180deg, rgba(93, 210, 98, 0.97) 25.52%, rgba(166, 213, 167, 0.97) 100%);;
+    background: linear-gradient(180deg, rgba(142, 201, 72) 25.52%, rgba(114, 190, 92) 100%);;
     padding: 6px;    
   }
   .about h1{
@@ -437,11 +393,127 @@ display: inline-block;
     font-family: 'poppins';
   }
   
+   /* LOGIN PAGE */
+  
+   .label a{
+    font-family: 'poppins';
+    text-decoration: none;
+    margin-right:30px;
+   }
+  
+   .label a:focus {
+  
+    background-color:white;
+  
+   }
+  
+   .label {
+     margin-top:50px;
+  
+     width: 800px;
+     margin-left: 231px;
+   }
+  
+   .login-body {
+    background-image:url(img/SlideShow/y1.jpg); 
+    width:100%;
+    height:100%;
+   }
+  
+   .kotak {
+     width:800px;
+     height:350px;
+     background-color:white;
+     position:absolute; /*it can be fixed too*/
+     left:0; right:0;
+     top:0; bottom:0;
+     margin:auto;
+     
+   }
+  
+   .kotak2 {
+    width:800px;
+    height:160px;
+    background-color:white;
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    
+  }
+  
+    /* .masuk {
+     
+     width: 700px;
+     height: 30px;
+     border-radius: 6px;
+     border: none;
+   }
+   .masuk:hover{
+     color: rgb(194, 222, 156);
+     cursor: pointer;
+   }  */
+  
+   .login {
+    font-family: 'Poppins';
+    font-size:13px;
+    width:800px;
+    position:absolute; /*it can be fixed too*/
+    left:   0; 
+    right:0;
+    top: 0; 
+    bottom:0;
+    margin:auto;
+  
+  }
+  
+  .table1 {
+    margin:0 auto;
+    margin-top: 100px;
+  
+  }
+  .table2 {
+    margin:0 auto;
+  }
+  
+  tr td {
+    font-family:Poppins;
+    font-size:13px;
+  }
+  
+  .input{
+    border: none;
+    width: 200px;
+    margin-left: 10px;
+    border-bottom: 1px solid green;
+  
+  }
+  
+  
+  label {
+    font-family: 'Poppins';
+    font-size:10px;
+    
+  }
+  .kembali a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  .kembali{
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+html{
+  scroll-behavior: smooth;
+}
+
+
+  
 
 
 
   /* ul.topnav li a:hover:not(.active) {background-color: #111;}
-
 ul.topnav li a.active {background-color: rgb(241, 247, 241);} */
 
 ul.topnav li.right {float: right;}
